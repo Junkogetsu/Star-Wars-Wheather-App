@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'starjedi';
+    font-style: normal;
+    font-weight: regular;
+    src: url('ressources/star_jedi/starjedi/Starjedi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monopoly';
+    font-style: normal;
+    font-weight: bold;
+    src: url('ressources/Monopoly/MonopolyBold.ttf') format('truetype');
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    background-image: url("ressources/dark_sky.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #FFE81F;
+    font-family: 'Monopoly', sans-serif;
+}
+
+.header {
+
+}
+
+.main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        min-height: 70.5%;
+}
+
+.starwars{
+    font-family: 'starjedi';
+    font-size: 100px;
+    content: 200px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.p-starwars{
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 100px;
+}
+
+.title-div {
+    display: inline-block;
+    margin: 0 0 0 160px;
+
+}
+
+.title {
+    font-weight: bold;
+    font-size: 80px;
+    font-family: "starjedi";
+    margin: 0;
+}
+
+.container {
+    padding: 2em;
+    margin: 0;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 25px;
+    border-color: #a300005b;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 0 0 10px #cf00005b,
+                0 0 20px #a300005b,
+                0 0 30px #a300005b,
+                0 0 40px #a300005b;
+}
+
+input.search-bar-planet {
+    box-shadow: 0 0 10px #cf00005b,
+                0 0 20px #a300005b,
+                0 0 30px #a300005b,
+                0 0 40px #a300005b;
+                border-color: #a300005b;
+    border-radius: 12px;
+    outline: none;
+    height: 45px;
+    width: 250px;
+    color: #FFE81F;
+    font-family:"monopoly";
+    font-size: 150%;
+    background-color: rgba(107, 0, 0, 0.13);
+    caret-color: #FFE81F;
+    padding-top: 3px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+input.search-bar-city {
+    box-shadow: 0 0 10px #a300005b,
+        0 0 20px #a300005b,
+        0 0 30px #a300005b,
+        0 0 40px #a300005b;
+    border-color: #a300005b;
+    border-radius: 12px;
+    outline: none;
+    height: 45px;
+    width: 250px;
+    color: #FFE81F;
+    font-family: "monopoly";
+    font-size: 150%;
+    background-color: rgba(107, 0, 0, 0.13);
+    caret-color: #FFE81F;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+.temperature {
+    font-weight: normal;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+.wind {
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+.humidity{
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+footer {
+    font-weight: normal;
+    font-size: 17px;
+    padding: 0 0 15px 20px;
+    color: antiquewhite;
+}
